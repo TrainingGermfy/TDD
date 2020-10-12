@@ -4,3 +4,6 @@ class Calculadora:
 
     def add(self, x, y):
         self.valor = x + y
+        
+    def subtract(self, x, y):
+        self.valor = x - y
