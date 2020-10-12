@@ -18,3 +18,7 @@ class Test_MiCalculadora(unittest.TestCase):
     def test_metodo_resta(self):
         self.calc.subtract(4, 2)
         self.assertEqual(2, self.calc.valor)
+    
+    def test_metodo_multiplicacion(self)
+        self.calc.multiply(3, 2)
+        self.assertEqual(6, self.calc.valor)
