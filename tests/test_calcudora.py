@@ -22,3 +22,7 @@ class Test_MiCalculadora(unittest.TestCase):
     def test_metodo_multiplicacion(self)
         self.calc.multiply(3, 2)
         self.assertEqual(6, self.calc.valor)
+
+    def test_metodo_division(self)
+        self.calc.divide(10,2)
+        self.assertEqual(5, self.calc.valor)
