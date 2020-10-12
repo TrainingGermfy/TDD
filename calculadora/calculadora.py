@@ -10,3 +10,6 @@ class Calculadora:
         
     def multiply(self, x, y):
         self.valor = x * y
+
+    def divide(self, x, y):
+        self.valor = x / y
