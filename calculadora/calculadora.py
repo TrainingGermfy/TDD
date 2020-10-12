@@ -7,3 +7,6 @@ class Calculadora:
         
     def subtract(self, x, y):
         self.valor = x - y
+        
+    def multiply(self, x, y):
+        self.valor = x * y
