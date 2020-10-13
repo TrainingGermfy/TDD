@@ -4,3 +4,15 @@ class Calculadora:
 
     def add(self, x, y):
         self.valor = x + y
+        
+    def substract(self, x, y):
+        self.valor = x - y
+
+    def divide(self, x, y):
+        try:
+            self.valor = x / y
+        except ZeroDivisionError:
+            print("Not possible operation, check divisor value.")
+    
+    def multiplication(self, x, y):
+        self.valor = x * y
