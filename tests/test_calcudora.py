@@ -1,5 +1,5 @@
+from calculadora.calculadora import Calculadora
 import unittest
-from calculadora import Calculadora
 
 
 class Test_MiCalculadora(unittest.TestCase):
@@ -36,7 +36,3 @@ class Test_MiCalculadora(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             self.calc.divide(10, 0)
             self.calc.divide(0, 0)
-
-
-if __name__ == '__main__':
-    unittest.main()
