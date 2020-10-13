@@ -5,11 +5,15 @@ class Calculadora:
     def add(self, x, y):
         self.valor = x + y
         
-    def subtract(self, x, y):
+
+    def substract(self, x, y):
         self.valor = x - y
-        
+
     def multiply(self, x, y):
         self.valor = x * y
-
+        
     def divide(self, x, y):
-        self.valor = x / y
+        try:
+            self.valor = x / y
+        except:
+            self.valor = NULL
